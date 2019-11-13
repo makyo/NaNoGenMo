@@ -1,0 +1,12 @@
+%%% ToC munging
+% Remove ToC header
+\renewcommand{\contentsname}{}
+\renewcommand*{\cftchapterfont}{\TocFont}
+\renewcommand*{\cftchapterpagefont}{\TocFont}
+\renewcommand*{\cftchapterafterpnum}{}
+\renewcommand{\cftdot}{\small{$\cdot$}}
+\renewcommand{\cftchapterdotsep}{3}
+\renewcommand{\cftsectiondotsep}{10000}
+% start toc at top of page
+\renewcommand*\tocheadstart{}{}
+\hypersetup{final}

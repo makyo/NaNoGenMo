@@ -1,3 +1,15 @@
+_site/*
+*.aux
+*.log
+*.out
+*.toc
+.jekyll-metadata
+.DS_Store
+.~*
+*.sw[po]
+.bundle
+/public
+/resources
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

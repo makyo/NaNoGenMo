@@ -1,0 +1,19 @@
+%%% Resets
+% memoir defines footruleskip, we want fancyhdr's
+\let\footruleskip\undefined
+\DisemulatePackage{setspace}
+
+%%% Hyperref warning suppression
+% I want math symbols, hyperref complains
+% must be before hyperref included
+%\usepackage{silence}
+%\WarningFilter[pdftoc]{hyperref}{Token not allowed in a PDF string}
+%\ActivateWarningFilters[pdftoc]
+
+%%% Package imports not needing expansion
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{xifthen}
+\usepackage{verse}
+\usepackage{xltxtra}
